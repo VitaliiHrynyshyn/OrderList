@@ -1,0 +1,14 @@
+C:\Users\vital\source\repos\ListOrders\ListOrders\bin\Debug\netcoreapp2.1\ListOrders.deps.json
+C:\Users\vital\source\repos\ListOrders\ListOrders\bin\Debug\netcoreapp2.1\ListOrders.runtimeconfig.json
+C:\Users\vital\source\repos\ListOrders\ListOrders\bin\Debug\netcoreapp2.1\ListOrders.runtimeconfig.dev.json
+C:\Users\vital\source\repos\ListOrders\ListOrders\bin\Debug\netcoreapp2.1\ListOrders.dll
+C:\Users\vital\source\repos\ListOrders\ListOrders\obj\Debug\netcoreapp2.1\ListOrders.csproj.CoreCompileInputs.cache
+C:\Users\vital\source\repos\ListOrders\ListOrders\obj\Debug\netcoreapp2.1\ListOrders.RazorAssemblyInfo.cache
+C:\Users\vital\source\repos\ListOrders\ListOrders\obj\Debug\netcoreapp2.1\ListOrders.RazorAssemblyInfo.cs
+C:\Users\vital\source\repos\ListOrders\ListOrders\obj\Debug\netcoreapp2.1\ListOrders.AssemblyInfoInputs.cache
+C:\Users\vital\source\repos\ListOrders\ListOrders\obj\Debug\netcoreapp2.1\ListOrders.AssemblyInfo.cs
+C:\Users\vital\source\repos\ListOrders\ListOrders\obj\Debug\netcoreapp2.1\ListOrders.RazorTargetAssemblyInfo.cache
+C:\Users\vital\source\repos\ListOrders\ListOrders\bin\Debug\netcoreapp2.1\ListOrders.pdb
+C:\Users\vital\source\repos\ListOrders\ListOrders\obj\Debug\netcoreapp2.1\ListOrders.csprojAssemblyReference.cache
+C:\Users\vital\source\repos\ListOrders\ListOrders\obj\Debug\netcoreapp2.1\ListOrders.dll
+C:\Users\vital\source\repos\ListOrders\ListOrders\obj\Debug\netcoreapp2.1\ListOrders.pdb
