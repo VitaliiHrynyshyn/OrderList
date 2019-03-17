@@ -1,0 +1,36 @@
+    <mat-form-field class="right-pad">
+      <input [(ngModel)]= "orderToAdd.name" matInput placeholder="name">
+    </mat-form-field>
+    <mat-form-field class="right-pad">
+      <input [(ngModel)]= "orderToAdd.count" matInput placeholder="count">
+    </mat-form-field>
+    <mat-form-field class="right-pad">
+      <input [(ngModel)]= "orderToAdd.weight" matInput placeholder="weight">
+    </mat-form-field>
+    <button mat-icon-button color="primary" (click)="addApi(orderToAdd);">
+      <mat-icon>add_box</mat-icon>
+    </button>
+
+    <ul>
+    <mat-card  *ngFor="let order of orders; index as i" style="margin: 16px; display: inline-block;">
+      <ng-container *ngIf="indexEdit != i">
+        <mat-checkbox (change)="updateApi(order.orderId)" [checked]="order.status ">
+          <span [ngClass]="{'todo-complete': order.status} ">
+            {{'Order: ' + order.name +'  Count: '+ order.count + ' Weight: ' + order.weight  }}
+          </span>
+
+        </mat-checkbox>
+
+        <!--<button *ngIf="!order.status" mat-icon-button color="primary" (click)="indexEdit = i">
+          <mat-icon>edit</mat-icon>
+        </button>-->
+
+        <button mat-icon-button color="warn" (click)="deleteApi(order.orderId)">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </ng-container>
+    </mat-card>
+    <div *ngIf="!orders.length">Message no items</div>
+  </ul>
+
+

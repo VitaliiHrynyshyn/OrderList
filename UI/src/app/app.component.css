@@ -1,0 +1,7 @@
+.todo-complete{
+  text-decoration: line-through;
+}
+
+.right-pad{
+  padding-left: 40px;
+}
